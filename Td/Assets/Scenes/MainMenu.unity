@@ -467,6 +467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ff58b7188215214e833400820adb461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level: 0
 --- !u!4 &519775480
 Transform:
   m_ObjectHideFlags: 0
@@ -1199,6 +1200,7 @@ GameObject:
   - component: {fileID: 1806216688}
   - component: {fileID: 1806216687}
   - component: {fileID: 1806216686}
+  - component: {fileID: 1806216689}
   m_Layer: 5
   m_Name: Settings
   m_TagString: Untagged
@@ -1270,7 +1272,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1806216687}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1806216689}
+        m_TargetAssemblyTypeName: UIManagment, Assembly-CSharp
+        m_MethodName: Settings
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1806216687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1309,6 +1323,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806216684}
   m_CullTransparentMesh: 1
+--- !u!114 &1806216689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1806216684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff58b7188215214e833400820adb461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 3
 --- !u!1 &1992186063
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,6 +1348,7 @@ GameObject:
   - component: {fileID: 1992186067}
   - component: {fileID: 1992186066}
   - component: {fileID: 1992186065}
+  - component: {fileID: 1992186068}
   m_Layer: 5
   m_Name: Company
   m_TagString: Untagged
@@ -1395,7 +1423,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 519775479}
         m_TargetAssemblyTypeName: UIManagment, Assembly-CSharp
-        m_MethodName: GoToGame
+        m_MethodName: GoToLevelSelection
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1443,3 +1471,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1992186063}
   m_CullTransparentMesh: 1
+--- !u!114 &1992186068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992186063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ff58b7188215214e833400820adb461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 2
