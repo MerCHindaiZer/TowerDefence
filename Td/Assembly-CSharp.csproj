@@ -64,6 +64,7 @@
     <Compile Include="Assets\Code\SpawnEnemy.cs" />
     <Compile Include="Assets\Code\BattlingTower.cs" />
     <Compile Include="Assets\Code\Menu Scene\UIManagment.cs" />
+    <Compile Include="Assets\Code\Menu Scene\Settings Scene\SetVolume.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

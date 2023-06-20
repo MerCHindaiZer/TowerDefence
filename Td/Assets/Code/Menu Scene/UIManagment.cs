@@ -22,4 +22,8 @@ public class UIManagment : MonoBehaviour
     {
         SceneManager.LoadScene("Level " + level.ToString());
     }
+    public void Back()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }

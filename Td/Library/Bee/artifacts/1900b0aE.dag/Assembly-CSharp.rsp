@@ -351,6 +351,7 @@
 "Assets/Code/Bull.cs"
 "Assets/Code/cam.cs"
 "Assets/Code/Enemy.cs"
+"Assets/Code/Menu Scene/Settings Scene/SetVolume.cs"
 "Assets/Code/Menu Scene/UIManagment.cs"
 "Assets/Code/MoveToMouse.cs"
 "Assets/Code/Objectmoving.cs"
